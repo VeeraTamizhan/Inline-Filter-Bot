@@ -13,7 +13,7 @@ from InlineBot import (
 if CUSTOM_START_MESSAGE:
     START_MESSAGE = CUSTOM_START_MESSAGE
 else:
-    START_MESSAGE = """<b>Hello {mention},
+    START_MESSAGE = """<b>Hello {firstname},
 
 I am an Inline Saver Bot, you can save inline filters and It can be use in any of your chats easily, Click help for more details</b> 
 """
